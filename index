@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MFF Card Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MFF Card Database</h1>
+        <p>Optimisez votre Perforation (Pierce) comme un pro.</p>
+    </header>
+
+<!-- Section Mon Deck (5 emplacements) -->
+<div class="my-deck-section">
+    <h2>Mon Deck Équipé (0/5)</h2>
+    <div class="deck-slots" id="deck-slots">
+        <div class="slot" onclick="removeCard(0)">+</div>
+        <div class="slot" onclick="removeCard(1)">+</div>
+        <div class="slot" onclick="removeCard(2)">+</div>
+        <div class="slot" onclick="removeCard(3)">+</div>
+        <div class="slot" onclick="removeCard(4)">+</div>
+    </div>
+</div>
+
+<hr>
+
+    <section class="card-container" id="cards-grid">
+    </section>
+<script>
+	let myDeck = [null, null, null, null, null];
+    	// 1. On va chercher les données
+   	 fetch('data.json')
+        	.then(response => response.json())
+        	.then(data => {
+            		const container = document.getElementById('cards-grid');
+            
+            // 2. Pour chaque carte dans le JSON, on crée le HTML
+            data.forEach(carte => {
+                const cardHTML = `
+                    <div class="card ${carte.type}" onclick="addToDeck('${carte.nom}', '${carte.image}')">
+                        <img src="${carte.image}" alt="${carte.nom}">
+                        <h3>${carte.nom}</h3>
+                        <p><strong>Stat 1:</strong> ${carte.stat1}</p>
+                        <p><strong>Stat 2:</strong> ${carte.stat2}</p>
+                        <p><strong>Stat 3:</strong> ${carte.stat2}</p>
+                        <span class="tag">${carte.tag}</span>
+                    </div>
+                `;
+                function addToDeck(nom, image) {
+                // On cherche le premier emplacement vide (null)
+                const emptySlotIndex = myDeck.indexOf(null);
+
+                if (emptySlotIndex !== -1) {
+                    myDeck[emptySlotIndex] = { nom, image };
+                    updateDeckUI();
+                } else {
+                    alert("Votre deck est déjà plein ! Retirez une carte d'abord.");
+                }
+                }
+
+                function removeCard(index) {
+                    myDeck[index] = null;
+                    updateDeckUI();
+                }
+
+		function updateDeckUI() {
+		    const slots = document.querySelectorAll('.slot');
+ 		    myDeck.forEach((card, index) => {
+     	       		 if (card) {
+            			slots[index].innerHTML = `<img src="${card.image}" title="${card.nom}">`;
+           			slots[index].classList.add('active');
+       			 } else {
+        		        slots[index].innerHTML = "+";
+        		        slots[index].classList.remove('active');
+                         }
+                     });
+                }
+                container.innerHTML += cardHTML;
+            });
+        })
+        .catch(error => console.error("Erreur de chargement :", error));
+</script>
+</body>
+</html>
