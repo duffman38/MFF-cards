@@ -1,0 +1,143 @@
+body {
+    background-color: #0b1014; /* Bleu très sombre */
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(to bottom, #1e2a3a, #0b1014);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #1a232e;
+    border: 2px solid #c19a6b; /* Bordure dorée pour le côté Premium */
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(20% - 20px);
+    min-width: 200px;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+/* Style spécifique pour les cartes Premium */
+.card.premium {
+    border: 2px solid #ffd700; /* Un jaune or plus vif */
+    background: linear-gradient(145deg, #1a232e, #253345); /* Un fond un peu plus clair */
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.2); /* Lueur dorée autour de la carte */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Petit effet de reflet brillant qui passe sur la carte */
+.card.premium::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        to bottom right, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 0.1) 50%, 
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(45deg);
+    transition: all 0.6s;
+    pointer-events: none;
+}
+
+/* Animation du reflet quand on passe la souris */
+.card.premium:hover::after {
+    left: 100%;
+    top: 100%;
+}
+
+/* Changer la couleur du titre pour les Premium */
+.card.premium h3 {
+    color: #ffd700;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+/* Style spécial pour le badge P-CARD */
+.card.premium .tag {
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728);
+    color: #000;
+    border: none;
+}
+
+/* Creer un deck de 5 cartes */
+.my-deck-section {
+    background-color: #1a232e;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 15px;
+    border: 1px solid #333;
+}
+
+.deck-slots {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.slot {
+    width: 120px;
+    height: 160px;
+    border: 2px dashed #444;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    font-size: 2em;
+    cursor: pointer;
+    overflow: hidden; /* Pour que l'image ne dépasse pas */
+    background-color: #0b1014;
+}
+
+.slot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slot.active {
+    border: 2px solid #ffd700;
+}
+
+
+
+/* Fin construction de deck */
+
+.card img {
+    width: 100%;        /* L'image prend toute la largeur de la carte */
+    aspect-ratio: 3 / 4; /* Ratio vertical type carte de comics */
+    object-fit: cover;  /* Remplit le cadre sans déformer l'image */
+    border-radius: 5px; /* Petit arrondi pour le style */
+    margin-bottom: 10px; /* Espace entre l'image et le texte */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Effet de zoom au survol */
+}
+
+.tag {
+    background-color: #e62429; /* Rouge Marvel */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}

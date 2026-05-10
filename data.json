@@ -1,0 +1,203 @@
+[
+  
+  {
+        "nom": "Amazing Spiderman #605",
+        "type": "premium",
+        "image": "Cards_files/babyspidey.png",
+        "stat1": "Augmentation de toutes les attaques de base",
+        "stat2": "Défense Ignorée",
+        "stat3": "Vitesse d'attaque",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Ghost Rider",
+        "type": "premium",
+        "image": "Cards_files/whifgr.png",
+        "stat1": "Attaque Énergie",
+        "stat2": "Attaque physique",
+        "stat3": "Augmentation de toutes les défenses de base",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Cresent",
+        "type": "premium",
+        "image": "Cards_files/crescent.png",
+        "stat1": "Augmentation de toutes les attaques de base",
+        "stat2": "Augmentation de toutes les défenses de base",
+        "stat3": "PV Max",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "White Fox",
+        "type": "premium",
+        "image": "Cards_files/whitefox.png",
+        "stat1": "Augmentation de toutes les attaques de base",
+        "stat2": "Défense Ignorée",
+        "stat3": "Puissance Critique",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Black Panther #35",
+        "type": "premium",
+        "image": "Cards_files/panther.png",
+        "stat1": "Attaque Physique",
+        "stat2": "Défense Ignorée",
+        "stat3": "Temps de Recharge",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Black Panther #166",
+        "type": "premium",
+        "image": "Cards_files/clord.png",
+        "stat1": "Toutes les attaques de base",
+        "stat2": "Temps de Recharge",
+        "stat3": "Puissance Critique",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Loki (2004) Vol.2",
+        "type": "premium",
+        "image": "Cards_files/loki2.png",
+        "stat1": "Attaque Énergie",
+        "stat2": "Défense Ignorée",
+        "stat3": "Temps de Recharge",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Loki (2010) Vol.1",
+        "type": "premium",
+        "image": "Cards_files/loki1.png",
+        "stat1": "Temps de Recharge",
+        "stat2": "Vitesse d'Attaque",
+        "stat3": "Défense Ignorée",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Black Widow(2016) Vol.10",
+        "type": "premium",
+        "image": "Cards_files/bw2016.png",
+        "stat1": "Temps de Recharge",
+        "stat2": "PV Max",
+        "stat3": "Toutes les attaques de base",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Uncanny Avengers (2015) Vol.14",
+        "type": "premium",
+        "image": "Cards_files/newavengers.png",
+        "stat1": "Toutes les attaques de base",
+        "stat2": "Temps de Recharge",
+        "stat3": "Défense Ignorée",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Avengers Origins",
+        "type": "premium",
+        "image": "Cards_files/womerorigins.png",
+        "stat1": "PV Max",
+        "stat2": "Défense Ignorée",
+        "stat3": "Toutes les attaques de base",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Gwenpool(2016) Vol.17",
+        "type": "premium",
+        "image": "Cards_files/gwenpool17.png",
+        "stat1": "Temps de Recharge",
+        "stat2": "PV Max",
+        "stat3": "Défense Ignorée",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Best story ever",
+        "type": "premium",
+        "image": "Cards_files/bse.png",
+        "stat1": "PV Max",
+        "stat2": "Toutes les attaques de base",
+        "stat3": "Vitesse d'Attaque",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Marvel Zombies(2009) #1",
+        "type": "premium",
+        "image": "Cards_files/zombiespidey.png",
+        "stat1": "Toutes les attaques de base",
+        "stat2": "PV Max",
+        "stat3": "Ignorer l'Esquive",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Fantastic Four(1961) #49",
+        "type": "premium",
+        "image": "Cards_files/fantastic4-4.png",
+        "stat1": "Toutes les attaques de base",
+        "stat2": "Toutes les défenses de base",
+        "stat3": "Temps de Recharge",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Artbook Avengers Vol.12",
+        "type": "premium",
+        "image": "Cards_files/avengers12.png",
+        "stat1": "Temps de Recharge",
+        "stat2": "Attaque Physique",
+        "stat3": "Toutes les attaques de base",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Artbook Captain America Vol.109",
+        "type": "premium",
+        "image": "Cards_files/cap109.png",
+        "stat1": "Attaque Physique",
+        "stat2": "Défense Physique",
+        "stat3": "Toutes les défenses de base",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Artbook Captain America Vol.109",
+        "type": "premium",
+        "image": "Cards_files/cap109.png",
+        "stat1": "Attaque Physique",
+        "stat2": "Défense Physique",
+        "stat3": "Toutes les défenses de base",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Artbook Amazing Spiderman Vol.13",
+        "type": "premium",
+        "image": "Cards_files/spidey13.png",
+        "stat1": "Attaque Physique",
+        "stat2": "Défense Ignorée",
+        "stat3": "Toutes les attaques de base",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Artbook Gardiens de la Galaxie Vol.7",
+        "type": "premium",
+        "image": "Cards_files/gardiens7.png",
+        "stat1": "Défense Ignorée",
+        "stat2": "Attaque d'Energie",
+        "stat3": "Toutes les défenses de base",
+        "tag": "Polyvalente"
+    },
+    {
+        "nom": "Artbook Avangers - All new and different Vol.1",
+        "type": "premium",
+        "image": "Cards_files/anadavengers.png",
+        "stat1": "Attaque Physique",
+        "stat2": "Attaque d'Energie",
+        "stat3": "Toutes les attaques de base",
+        "tag": "Polyvalente"
+    },
+
+
+
+    {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "avengers_318.jpg",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+]
