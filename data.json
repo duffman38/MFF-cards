@@ -195,7 +195,87 @@
     {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "avengers_318.jpg",
+        "image": "avengers_318.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+      {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "1872.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+      }
+      {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "1968.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+      {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "2099_2.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+      {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "agentofasgard.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+    {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "agentofatlas.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+    {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "amatworigins.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+      {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "anadavengers.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+        {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "antman2010.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+        {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "antman2015.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    }
+        {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "antman2015_2.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
