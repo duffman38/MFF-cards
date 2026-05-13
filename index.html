@@ -6,21 +6,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ <!-- Bouton Menu (Flottant) -->
+<button class="open-btn" onclick="toggleNav()">☰ Stats & Filtres</button>
+
+<!-- Menu Latéral -->
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+    
+    <div class="sidebar-content">
+        <h2 style="color: #ffd700; padding: 0 20px;">CALCULATEUR</h2>
+        
+        <!-- Zone des Stats Totales -->
+        <div class="mini-stats-panel">
+            <div class="stat-row">
+                <span>Attaque Totale:</span>
+                <span id="side-total-att" class="val">0%</span>
+            </div>
+            <div class="stat-row">
+                <span>Perforation:</span>
+                <span id="side-total-pierce" class="val">0%</span>
+            </div>
+            <div class="stat-row">
+                <span>Recharge:</span>
+                <span id="side-total-scd" class="val">0%</span>
+            </div>
+        </div>
+
+        <hr style="border: 0.5px solid #333; margin: 20px;">
+
+        <h2 style="color: #ffd700; padding: 0 20px;">FILTRES</h2>
+        <div class="filter-group">
+            <button class="filter-btn" onclick="filterCards('all')">Toutes</button>
+            <button class="filter-btn" onclick="filterCards('premium')">Premium Only</button>
+        </div>
+    </div>
+</div>
+
+<!-- Contenu Principal -->
+<div id="main">
     <header>
-        <h1>MFF Card Database</h1>
-        <p>Optimisez votre Perforation (Pierce) comme un pro.</p>
+        <h1>MFF Card Simulator</h1>
     </header>
 
-<!-- Section Mon Deck (5 emplacements) -->
-<div class="my-deck-section">
-    <h2>Mon Deck Équipé (0/5)</h2>
-    <div class="deck-slots" id="deck-slots">
-        <div class="slot" onclick="removeCard(0)">+</div>
-        <div class="slot" onclick="removeCard(1)">+</div>
-        <div class="slot" onclick="removeCard(2)">+</div>
-        <div class="slot" onclick="removeCard(3)">+</div>
-        <div class="slot" onclick="removeCard(4)">+</div>
-    </div>
+    <!-- Ta section Deck (les 5 slots) -->
+    <section class="my-deck-section">
+        <div class="deck-slots" id="deck-slots">
+            <div class="slot" id="slot-0" onclick="removeCard(0)">+</div>
+            <div class="slot" id="slot-1" onclick="removeCard(1)">+</div>
+            <div class="slot" id="slot-2" onclick="removeCard(2)">+</div>
+            <div class="slot" id="slot-3" onclick="removeCard(3)">+</div>
+            <div class="slot" id="slot-4" onclick="removeCard(4)">+</div>
+        </div>
+    </section>
+
+    <!-- Grille de cartes -->
+    <div class="card-container" id="cards-grid"></div>
 </div>
 
 <hr>
