@@ -28,54 +28,56 @@
     <section class="card-container" id="cards-grid">
     </section>
 <script>
-	let myDeck = [null, null, null, null, null];
-    	// 1. On va chercher les données
-   	 fetch('data.json')
-        	.then(response => response.json())
-        	.then(data => {
-            		const container = document.getElementById('cards-grid');
+    // 1. On déclare les variables globales en haut
+    let myDeck = [null, null, null, null, null];
+
+    // 2. On définit les fonctions de gestion du deck (accessibles partout)
+    function addToDeck(nom, image) {
+        const emptySlotIndex = myDeck.indexOf(null);
+        if (emptySlotIndex !== -1) {
+            myDeck[emptySlotIndex] = { nom, image };
+            updateDeckUI();
+        } else {
+            alert("Votre deck est déjà plein ! Retirez une carte d'abord.");
+        }
+    }
+
+    function removeCard(index) {
+        myDeck[index] = null;
+        updateDeckUI();
+    }
+
+    function updateDeckUI() {
+        const slots = document.querySelectorAll('.slot');
+        myDeck.forEach((card, index) => {
+            if (card) {
+                // On ajoute l'image et on garde le clic pour pouvoir la retirer
+                slots[index].innerHTML = `<img src="${card.image}" title="${card.nom}" style="width:100%; height:100%; object-fit:cover;">`;
+                slots[index].classList.add('active');
+            } else {
+                slots[index].innerHTML = "+";
+                slots[index].classList.remove('active');
+            }
+        });
+    }
+
+    // 3. On charge les données JSON
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('cards-grid');
             
-            // 2. Pour chaque carte dans le JSON, on crée le HTML
             data.forEach(carte => {
+                // Utilisation de backticks ` pour injecter les variables
                 const cardHTML = `
-                    <div class="card ${carte.type}" onclick="addToDeck('${carte.nom}', '${carte.image}')">
+                    <div class="card ${carte.type}" onclick="addToDeck('${carte.nom.replace(/'/g, "\\'")}', '${carte.image}')" style="cursor:pointer;">
                         <img src="${carte.image}" alt="${carte.nom}">
                         <h3>${carte.nom}</h3>
                         <p><strong>Stat 1:</strong> ${carte.stat1}</p>
                         <p><strong>Stat 2:</strong> ${carte.stat2}</p>
-                        <p><strong>Stat 3:</strong> ${carte.stat2}</p>
                         <span class="tag">${carte.tag}</span>
                     </div>
                 `;
-                function addToDeck(nom, image) {
-                // On cherche le premier emplacement vide (null)
-                const emptySlotIndex = myDeck.indexOf(null);
-
-                if (emptySlotIndex !== -1) {
-                    myDeck[emptySlotIndex] = { nom, image };
-                    updateDeckUI();
-                } else {
-                    alert("Votre deck est déjà plein ! Retirez une carte d'abord.");
-                }
-                }
-
-                function removeCard(index) {
-                    myDeck[index] = null;
-                    updateDeckUI();
-                }
-
-		function updateDeckUI() {
-		    const slots = document.querySelectorAll('.slot');
- 		    myDeck.forEach((card, index) => {
-     	       		 if (card) {
-            			slots[index].innerHTML = `<img src="${card.image}" title="${card.nom}">`;
-           			slots[index].classList.add('active');
-       			 } else {
-        		        slots[index].innerHTML = "+";
-        		        slots[index].classList.remove('active');
-                         }
-                     });
-                }
                 container.innerHTML += cardHTML;
             });
         })
