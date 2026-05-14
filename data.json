@@ -4,9 +4,10 @@
         "nom": "Amazing Spiderman #605",
         "type": "premium",
         "image": "Cards_files/babyspidey.png",
-        "stat1": "Toutes les attaques de base",
-        "stat2": "Défense Ignorée",
-        "stat3": "Vitesse d'attaque",
+        "stats_fixes": [
+          { "nom": "Toutes les attaques" },
+          { "nom": "Défense Ignorée" }
+          { "nom": "Vitesse d'attaque" }
         "tag": "Polyvalente"
     },
       {
