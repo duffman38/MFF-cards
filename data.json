@@ -6,10 +6,10 @@
         "image": "Cards_files/babyspidey.png",
         "stats_fixes": [
           { "nom": "Toutes les attaques" },
-          { "nom": "Défense Ignorée" }
-          { "nom": "Vitesse d'attaque" }
-        "tag": "Polyvalente"
-        ]
+          { "nom": "Défense Ignorée" },
+          { "nom": "Vitesse d'attaque" },
+                ]
+          "tag": "Polyvalente"
     },
       {
         "nom": "Luna Snow",
