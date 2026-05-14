@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- Bouton Menu (Flottant) -->
+ <!-- Bouton Menu (Flottant) -->
 <button class="open-btn" onclick="toggleNav()">☰ Stats & Filtres</button>
 
 <!-- Menu Latéral -->
@@ -17,6 +16,7 @@
     <div class="sidebar-content">
         <h2 style="color: #ffd700; padding: 0 20px;">CALCULATEUR</h2>
         
+        <!-- Zone des Stats Totales -->
         <div class="mini-stats-panel">
             <div class="stat-row">
                 <span>Attaque Totale:</span>
@@ -38,7 +38,6 @@
         <div class="filter-group">
             <button class="filter-btn" onclick="filterCards('all')">Toutes</button>
             <button class="filter-btn" onclick="filterCards('premium')">Premium Only</button>
-            <button class="filter-btn" onclick="filterCards('normal')">Normales</button>
         </div>
     </div>
 </div>
@@ -49,6 +48,7 @@
         <h1>MFF Card Simulator</h1>
     </header>
 
+    <!-- Ta section Deck (les 5 slots) -->
     <section class="my-deck-section">
         <div class="deck-slots" id="deck-slots">
             <div class="slot" id="slot-0" onclick="removeCard(0)">+</div>
@@ -59,52 +59,41 @@
         </div>
     </section>
 
-    <!-- Une seule grille de cartes ici -->
+    <!-- Grille de cartes -->
     <div class="card-container" id="cards-grid"></div>
 </div>
 
+<hr>
+
+    <section class="card-container" id="cards-grid">
+    </section>
 <script>
+    // 1. On déclare les variables globales en haut
     let myDeck = [null, null, null, null, null];
-    let toutesLesCartes = []; // On stocke les données du JSON ici
 
-    // 1. Gestion du menu latéral
+    // 2.Ouverture du menu
     let sidebarOpen = false;
-    function toggleNav() {
-        const sidebar = document.getElementById("mySidebar");
-        const main = document.getElementById("main");
-        if (!sidebarOpen) {
-            sidebar.style.width = "250px";
-            main.style.marginLeft = "250px";
-            sidebarOpen = true;
-        } else {
-            sidebar.style.width = "0";
-            main.style.marginLeft= "0";
-            sidebarOpen = false;
-        }
-    }
 
-    // 2. Fonction de Filtrage
-    function filterCards(type) {
-        const cards = document.querySelectorAll('.card');
-        cards.forEach(card => {
-            if (type === 'all') {
-                card.style.display = 'block';
+        function toggleNav() {
+            if (!sidebarOpen) {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                sidebarOpen = true;
             } else {
-                // Vérifie si la carte a la classe 'premium' ou 'normal'
-                card.style.display = card.classList.contains(type) ? 'block' : 'none';
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+                sidebarOpen = false;
             }
-        });
-    }
+        }
 
-    // 3. Gestion du Deck
-    function addToDeck(index) {
+    // 3. On définit les fonctions de gestion du deck (accessibles partout)
+    function addToDeck(nom, image) {
         const emptySlotIndex = myDeck.indexOf(null);
         if (emptySlotIndex !== -1) {
-            // On ajoute l'objet complet de la carte au deck
-            myDeck[emptySlotIndex] = toutesLesCartes[index];
+            myDeck[emptySlotIndex] = { nom, image };
             updateDeckUI();
         } else {
-            alert("Votre deck est déjà plein !");
+            alert("Votre deck est déjà plein ! Retirez une carte d'abord.");
         }
     }
 
@@ -117,6 +106,7 @@
         const slots = document.querySelectorAll('.slot');
         myDeck.forEach((card, index) => {
             if (card) {
+                // On ajoute l'image et on garde le clic pour pouvoir la retirer
                 slots[index].innerHTML = `<img src="${card.image}" title="${card.nom}" style="width:100%; height:100%; object-fit:cover;">`;
                 slots[index].classList.add('active');
             } else {
@@ -126,27 +116,27 @@
         });
     }
 
-    // 4. Chargement des données
+    // 4. On charge les données JSON
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
-            toutesLesCartes = data;
             const container = document.getElementById('cards-grid');
             
-            data.forEach((carte, index) => {
+            data.forEach(carte => {
+                // Utilisation de backticks ` pour injecter les variables
                 const cardHTML = `
-                    <div class="card ${carte.type}" onclick="addToDeck(${index})" style="cursor:pointer;">
+                    <div class="card ${carte.type}" onclick="addToDeck('${carte.nom.replace(/'/g, "\\'")}', '${carte.image}')" style="cursor:pointer;">
                         <img src="${carte.image}" alt="${carte.nom}">
                         <h3>${carte.nom}</h3>
-                        <p><strong>Fixe 1:</strong> ${carte.stats_fixes[0].nom}</p>
-                        <p><strong>Fixe 2:</strong> ${carte.stats_fixes[1].nom}</p>
+                        <p><strong>Stat 1:</strong> ${carte.stat1}</p>
+                        <p><strong>Stat 2:</strong> ${carte.stat2}</p>
                         <span class="tag">${carte.tag}</span>
                     </div>
                 `;
                 container.innerHTML += cardHTML;
             });
         })
-        .catch(error => console.error("Erreur :", error));
+        .catch(error => console.error("Erreur de chargement :", error));
 </script>
 </body>
 </html>
