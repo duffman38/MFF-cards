@@ -4,12 +4,10 @@
         "nom": "Amazing Spiderman #605",
         "type": "premium",
         "image": "Cards_files/babyspidey.png",
-        "stats_fixes": [
-          { "nom": "Toutes les attaques" },
-          { "nom": "Défense Ignorée" },
-          { "nom": "Vitesse d'attaque" },
-                ]
-          "tag": "Polyvalente"
+        "stat1": "Toutes les attaques de base",
+        "stat2": "Défense Ignorée",
+        "stat3": "Vitesse d'attaque",
+        "tag": "Polyvalente"
     },
       {
         "nom": "Luna Snow",
@@ -191,6 +189,9 @@
         "stat3": "Toutes les attaques de base",
         "tag": "Polyvalente"
     },
+
+
+
     {
         "nom": "Avengers #318",
         "type": "normale",
@@ -198,39 +199,39 @@
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
-    {
+    }
+      {
         "nom": "Avengers #318",
         "type": "normale",
         "image": "1872.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
-    {
+      }
+      {
         "nom": "Avengers #318",
         "type": "normale",
         "image": "1968.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
-    {
+    }
+      {
         "nom": "Avengers #318",
         "type": "normale",
         "image": "2099_2.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
-    {
+    }
+      {
         "nom": "Avengers #318",
         "type": "normale",
         "image": "agentofasgard.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
+    }
     {
         "nom": "Avengers #318",
         "type": "normale",
@@ -238,7 +239,7 @@
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
+    }
     {
         "nom": "Avengers #318",
         "type": "normale",
@@ -246,31 +247,31 @@
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
-    {
+    }
+      {
         "nom": "Avengers #318",
         "type": "normale",
         "image": "anadavengers.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
-    {
+    }
+        {
         "nom": "Avengers #318",
         "type": "normale",
         "image": "antman2010.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
-    {
+    }
+        {
         "nom": "Avengers #318",
         "type": "normale",
         "image": "antman2015.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
+    }
         {
         "nom": "Avengers #318",
         "type": "normale",
@@ -278,5 +279,5 @@
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
-    },
+    }
 ]
