@@ -189,14 +189,6 @@
         "stat3": "Toutes les attaques de base",
         "tag": "Polyvalente"
     },
-    {
-        "nom": "Avengers #318",
-        "type": "normale",
-        "image": "Cards_files/avengers_318.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
-        "tag": "F2P"
-    },
       {
         "nom": "Avengers #318",
         "type": "normale",
@@ -336,7 +328,7 @@
             {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "Cards_files/avangers12.png",
+        "image": "Cards_files/avengers12.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -344,7 +336,7 @@
             {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "Cards_files/avangers_12.png",
+        "image": "Cards_files/avengers_12.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -352,7 +344,39 @@
             {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "Cards_files/avangers_318.png",
+        "image": "Cards_files/avengers_318.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+              {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/avengersinitiative.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+              {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/battleworld_1.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+              {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/battleworld_2.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+                {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/battleworld_3.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
