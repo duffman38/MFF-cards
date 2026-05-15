@@ -192,7 +192,7 @@
     {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "avengers_318.png",
+        "image": "Cards_files/avengers_318.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -200,7 +200,7 @@
       {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "1872.png",
+        "image": "Cards_files/1872.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -208,7 +208,7 @@
       {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "1968.png",
+        "image": "Cards_files/1968.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -216,7 +216,7 @@
       {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "2099_2.png",
+        "image": "Cards_files/2099_2.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -224,7 +224,7 @@
       {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "agentofasgard.png",
+        "image": "Cards_files/agentofasgard.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -232,7 +232,7 @@
     {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "agentofatlas.png",
+        "image": "Cards_files/agentofatlas.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -240,7 +240,7 @@
     {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "amatworigins.png",
+        "image": "Cards_files/amatworigins.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -248,7 +248,7 @@
       {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "anadavengers.png",
+        "image": "Cards_files/anadavengers.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -256,7 +256,7 @@
         {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "antman2010.png",
+        "image": "Cards_files/antman2010.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -264,7 +264,7 @@
         {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "antman2015.png",
+        "image": "Cards_files/antman2015.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -272,7 +272,7 @@
         {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "antman2015_2.png",
+        "image": "Cards_files/antman2015_2.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
