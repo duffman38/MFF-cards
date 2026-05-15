@@ -232,7 +232,7 @@
     {
         "nom": "Avengers #318",
         "type": "normale",
-        "image": "Cards_files/agentofatlas.png",
+        "image": "Cards_files/agentsofatlas.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
@@ -273,6 +273,86 @@
         "nom": "Avengers #318",
         "type": "normale",
         "image": "Cards_files/antman2015_2.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+          {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/armorwars.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+          {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/asm_13.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+          {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/asm_533.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+          {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/asm_535.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+            {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/asm_653.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+            {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/asm_674.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+            {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/assassin.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+            {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/avangers12.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+            {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/avangers_12.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+            {
+        "nom": "Avengers #318",
+        "type": "normale",
+        "image": "Cards_files/avangers_318.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
