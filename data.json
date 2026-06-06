@@ -190,7 +190,7 @@
         "tag": "Polyvalente"
     },
       {
-        "nom": "Avengers #318",
+        "nom": "1872",
         "type": "normale",
         "image": "Cards_files/1872.png",
         "stat1": "PV Max",
@@ -198,7 +198,7 @@
         "tag": "F2P"
       },
       {
-        "nom": "Avengers #318",
+        "nom": "1968",
         "type": "normale",
         "image": "Cards_files/1968.png",
         "stat1": "PV Max",
@@ -214,7 +214,7 @@
         "tag": "F2P"
     },
       {
-        "nom": "Avengers #318",
+        "nom": "LOKI: Agent of Asgard #17",
         "type": "normale",
         "image": "Cards_files/agentofasgard.png",
         "stat1": "PV Max",
@@ -270,7 +270,7 @@
         "tag": "F2P"
     },
           {
-        "nom": "Avengers #318",
+        "nom": "Armor Wars #1",
         "type": "normale",
         "image": "Cards_files/armorwars.png",
         "stat1": "PV Max",
@@ -278,31 +278,31 @@
         "tag": "F2P"
     },
           {
-        "nom": "Avengers #318",
+        "nom": ""Amazin Spider-Man #13",
         "type": "normale",
         "image": "Cards_files/asm_13.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
     },
-          {
-        "nom": "Avengers #318",
-        "type": "normale",
-        "image": "Cards_files/asm_533.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
-        "tag": "F2P"
-    },
-          {
-        "nom": "Avengers #318",
+            {
+        "nom": "Amazin Spider-Man #535",
         "type": "normale",
         "image": "Cards_files/asm_535.png",
         "stat1": "PV Max",
         "stat2": "Ignore Défense",
         "tag": "F2P"
     },
+          {
+        "nom": "Amazin Spider-Man #533",
+        "type": "normale",
+        "image": "Cards_files/asm_533.png",
+        "stat1": "PV Max",
+        "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
             {
-        "nom": "Avengers #318",
+        "nom": "Amazin Spider-Man #674",
         "type": "normale",
         "image": "Cards_files/asm_653.png",
         "stat1": "PV Max",
@@ -310,7 +310,7 @@
         "tag": "F2P"
     },
             {
-        "nom": "Avengers #318",
+        "nom": "Amazin Spider-Man #674",
         "type": "normale",
         "image": "Cards_files/asm_674.png",
         "stat1": "PV Max",
@@ -318,7 +318,7 @@
         "tag": "F2P"
     },
             {
-        "nom": "Avengers #318",
+        "nom": "M.O.D.O.K. Assassin #1",
         "type": "normale",
         "image": "Cards_files/assassin.png",
         "stat1": "PV Max",
@@ -334,7 +334,7 @@
         "tag": "F2P"
     },
             {
-        "nom": "Avengers #318",
+        "nom": "Avengers #12",
         "type": "normale",
         "image": "Cards_files/avengers_12.png",
         "stat1": "PV Max",
@@ -350,7 +350,7 @@
         "tag": "F2P"
     },
               {
-        "nom": "Avengers #318",
+        "nom": "Avengers : The Initiative #20",
         "type": "normale",
         "image": "Cards_files/avengersinitiative.png",
         "stat1": "PV Max",
@@ -358,7 +358,7 @@
         "tag": "F2P"
     },
               {
-        "nom": "Avengers #318",
+        "nom": "Secret Wars : Battleworld #1",
         "type": "normale",
         "image": "Cards_files/battleworld_1.png",
         "stat1": "PV Max",
@@ -366,7 +366,7 @@
         "tag": "F2P"
     },
               {
-        "nom": "Avengers #318",
+        "nom": "Secret Wars : Battleworld #2",
         "type": "normale",
         "image": "Cards_files/battleworld_2.png",
         "stat1": "PV Max",
@@ -374,7 +374,7 @@
         "tag": "F2P"
     },
                 {
-        "nom": "Avengers #318",
+        "nom": "Secret Wars : Battleworld #3",
         "type": "normale",
         "image": "Cards_files/battleworld_3.png",
         "stat1": "PV Max",
