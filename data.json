@@ -193,96 +193,72 @@
         "nom": "1872",
         "type": "normale",
         "image": "Cards_files/1872.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Vitesse d'Attaque",
+        "stat2": "Vitesse de Déplacement",
         "tag": "F2P"
       },
       {
-        "nom": "1968",
-        "type": "normale",
-        "image": "Cards_files/1968.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
-        "tag": "F2P"
-    },
-      {
-        "nom": "Avengers #318",
+        "nom": "Secret Wars 2099 #2",
         "type": "normale",
         "image": "Cards_files/2099_2.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Résistance Psychique",
+        "stat2": "Récupération",
         "tag": "F2P"
     },
       {
         "nom": "LOKI: Agent of Asgard #17",
         "type": "normale",
         "image": "Cards_files/agentofasgard.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Toutes les attaques de base",
+        "stat2": "Temps de Rechargee",
         "tag": "F2P"
     },
     {
-        "nom": "Avengers #318",
+        "nom": "Agents Of Atlas #1 (Young Variant)",
         "type": "normale",
         "image": "Cards_files/agentsofatlas.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Temps de Recharge",
+        "stat2": "Récupération",
         "tag": "F2P"
     },
     {
-        "nom": "Avengers #318",
+        "nom": "Avengers Origins : Ant-Man & The Wasp #1",
         "type": "normale",
         "image": "Cards_files/amatworigins.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
-        "tag": "F2P"
-    },
-      {
-        "nom": "Avengers #318",
-        "type": "normale",
-        "image": "Cards_files/anadavengers.png",
-        "stat1": "PV Max",
+        "stat1": "Résistance Psychique",
         "stat2": "Ignore Défense",
         "tag": "F2P"
     },
         {
-        "nom": "Avengers #318",
+        "nom": "Ant-Man & The Wasp #1",
         "type": "normale",
         "image": "Cards_files/antman2010.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Vitesse de Déplacement",
+        "stat2": "Résistance Poison",
         "tag": "F2P"
     },
         {
-        "nom": "Avengers #318",
+        "nom": "Ant-Man #1 (2015)",
         "type": "normale",
         "image": "Cards_files/antman2015.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Puissance Critique",
+        "stat2": "PV Max",
         "tag": "F2P"
     },
         {
-        "nom": "Avengers #318",
+        "nom": "Ant-Man #5",
         "type": "normale",
         "image": "Cards_files/antman2015_2.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Toutes les défenses de base",
+        "stat2": "Résistance Foudre",
         "tag": "F2P"
     },
           {
         "nom": "Armor Wars #1",
         "type": "normale",
         "image": "Cards_files/armorwars.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
-        "tag": "F2P"
-    },
-          {
-        "nom": "Amazin Spider-Man #13",
-        "type": "normale",
-        "image": "Cards_files/asm_13.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Vitesse de Déplacement",
+        "stat2": "Résistance Psychique",
         "tag": "F2P"
     },
             {
@@ -290,55 +266,39 @@
         "type": "normale",
         "image": "Cards_files/asm_535.png",
         "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat2": "Vitesse d'Attaque",
         "tag": "F2P"
     },
           {
         "nom": "Amazin Spider-Man #533",
         "type": "normale",
         "image": "Cards_files/asm_533.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Vitesse d'Attaque",
+        "stat2": "Esquive",
         "tag": "F2P"
     },
             {
-        "nom": "Amazin Spider-Man #674",
+        "nom": "Amazin Spider-Man #653",
         "type": "normale",
         "image": "Cards_files/asm_653.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Esquive",
+        "stat2": "Toutes les attaques de base",
         "tag": "F2P"
     },
             {
         "nom": "Amazin Spider-Man #674",
         "type": "normale",
         "image": "Cards_files/asm_674.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Temps de Recharge",
+        "stat2": "Résistance Glace",
         "tag": "F2P"
     },
             {
         "nom": "M.O.D.O.K. Assassin #1",
         "type": "normale",
         "image": "Cards_files/assassin.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
-        "tag": "F2P"
-    },
-            {
-        "nom": "Avengers #318",
-        "type": "normale",
-        "image": "Cards_files/avengers12.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
-        "tag": "F2P"
-    },
-            {
-        "nom": "Avengers #12",
-        "type": "normale",
-        "image": "Cards_files/avengers_12.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Temps de Contrôle des Foules",
+        "stat2": "Résistance Psychique",
         "tag": "F2P"
     },
             {
@@ -353,16 +313,16 @@
         "nom": "Avengers : The Initiative #20",
         "type": "normale",
         "image": "Cards_files/avengersinitiative.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Défense Énergie",
+        "stat2": "Puissance Critique",
         "tag": "F2P"
     },
               {
         "nom": "Secret Wars : Battleworld #1",
         "type": "normale",
         "image": "Cards_files/battleworld_1.png",
-        "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat1": "Toutes les défenses de base",
+        "stat2": "Défense Physique",
         "tag": "F2P"
     },
               {
@@ -370,15 +330,71 @@
         "type": "normale",
         "image": "Cards_files/battleworld_2.png",
         "stat1": "PV Max",
-        "stat2": "Ignore Défense",
+        "stat2": "Résistance Feu",
         "tag": "F2P"
     },
                 {
         "nom": "Secret Wars : Battleworld #3",
         "type": "normale",
         "image": "Cards_files/battleworld_3.png",
-        "stat1": "PV Max",
+        "stat1": "Attaque Physique",
+        "stat2": "Résistance Poison",
+        "tag": "F2P"
+    },
+                {
+        "nom": "Black Widow #1",
+        "type": "normale",
+        "image": "Cards_files/bw2016_1.png",
+        "stat1": "Vitesse de Déplacement",
+        "stat2": "Temps de Contrôle des Foules",
+        "tag": "F2P"
+    },
+ {
+        "nom": "Captain America #22",
+        "type": "normale",
+        "image": "Cards_files/cap22.png",
+        "stat1": "Défense Physique",
         "stat2": "Ignore Défense",
+        "tag": "F2P"
+    },
+ {
+        "nom": "Captain America #24",
+        "type": "normale",
+        "image": "Cards_files/cap24.png",
+        "stat1": "Attaque Physique",
+        "stat2": "Temps de Recharge",
+        "tag": "F2P"
+    },
+                {
+        "nom": "Captain Marvel & The Carol Corps #2",
+        "type": "normale",
+        "image": "Cards_files/carolcorps.png",
+        "stat1": "Taux Critique",
+        "stat2": "Résistance Poison",
+        "tag": "F2P"
+    },
+ {
+        "nom": "Marvel's Voices Infinity Comic (2022) #33",
+        "type": "normale",
+        "image": "Cards_files/crescent2024.png",
+        "stat1": "Attaque Physique",
+        "stat2": "Attaque Énergie",
+        "tag": "F2P"
+    },
+ {
+        "nom": "Civil War #3",
+        "type": "normale",
+        "image": "Cards_files/cw3.png",
+        "stat1": "Temps de Recharge",
+        "stat2": "Temps de Contrôle des Foules",
+        "tag": "F2P"
+    },
+ {
+        "nom": "Civil War #4",
+        "type": "normale",
+        "image": "Cards_files/cw4.png",
+        "stat1": "Toutes les attaques de base",
+        "stat2": "Défense Physique",
         "tag": "F2P"
     }
 ]
